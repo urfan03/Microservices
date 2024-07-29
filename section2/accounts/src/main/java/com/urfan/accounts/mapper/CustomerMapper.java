@@ -3,8 +3,6 @@ package com.urfan.accounts.mapper;
 import com.urfan.accounts.dto.CustomerDto;
 import com.urfan.accounts.entity.Customer;
 
-import java.time.LocalDateTime;
-
 public class CustomerMapper {
 
     public static CustomerDto mapToCustomerDto(Customer customer, CustomerDto customerDto) {
